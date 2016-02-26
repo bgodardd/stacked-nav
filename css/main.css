@@ -7,13 +7,14 @@ html {
 	box-sizing: inherit;
 }
 
-body {
+header {
 	background-color: #efeee9;
 	text-align: center;
 }
 
 h1 {
 	color: #552403;
+	margin: 0;
 }
 
 a {
@@ -25,6 +26,8 @@ li {
 	list-style: none;
 	background-color: #9a816d;
 	color: #efeee9;
+	border: 1px solid;
+	border-color: #795437;
 }
 
 li:hover {
@@ -33,4 +36,12 @@ li:hover {
 
 ol {
 	padding: 0;
+}
+
+main {
+	background-color: #fff;
+}
+
+body{
+	margin: 0;
 }
