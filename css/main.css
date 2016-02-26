@@ -23,18 +23,19 @@ a {
 }
 
 li {
-	list-style: none;
+	list-style-type: none;
 	background-color: #9a816d;
 	color: #efeee9;
 	border: 1px solid;
 	border-color: #795437;
+	display: block;
 }
 
 li:hover {
   background-color: #795437;
 }
 
-ol {
+ul {
 	padding: 0;
 }
 
