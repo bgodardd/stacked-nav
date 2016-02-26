@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+	font-family: "Dosis", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #efeee9;
+	text-align: center;
+}
+
+h1 {
+	color: #552403;
+}
+
+a {
+	text-decoration: none;
+	color: #efeee9;
+}
+
+li {
+	list-style: none;
+	background-color: #9a816d;
+	color: #efeee9;
+}
+
+li:hover {
+  background-color: #795437;
+}
+
+ol {
+	padding: 0;
+}
